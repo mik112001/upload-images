@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: black;
+ }
+ 
+ .logout {
+     height: 40px;
+     width: 100%;
+     background-color: #258de6;
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     border: none;
+     display: block;
+     margin: 0 auto;
+     font-weight: bold;
+     margin-top: 1.5rem;
+     border-radius: 8px;
+ }
+ 
+ .logout:hover {
+     filter: brightness(95%);
+ }
+   
+ .logout:active {
+     transform: scale(0.98);
+ }

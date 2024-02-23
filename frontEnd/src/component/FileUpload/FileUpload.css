@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 50vh;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    padding: 8px; /* Increase padding for better appearance */
+    margin-bottom: 1rem; /* Add some space between input and button */
+    border: 1px solid #ccc; /* Add a border for better visual separation */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+button {
+    height: 40px; /* Increase height for better visibility */
+    width: 100%;
+    background-color: #258de6;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+button:hover {
+    background-color: #1a6fb0; /* Darken background color on hover */
+}
